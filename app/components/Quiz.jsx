@@ -27,7 +27,7 @@ function Question({ q }) {
               onClick={() => setSelected(letter)}
               className={`w-full text-left p-3 rounded-xl border-2 transition-all ${bgColor}`}
             >
-              <span className="font-bold mr-2">{letter}.</span> {opt}
+              <span className="font-bold mr-2">{letter}.</span> {cleanOption}
             </button>
           );
         })}
